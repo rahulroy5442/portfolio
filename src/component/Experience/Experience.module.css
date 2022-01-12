@@ -1,0 +1,172 @@
+.container{
+
+  font-size:20px;
+
+
+  width:100%;
+  height: 100%;
+  max-width:1500px;
+  max-height: 400px;
+  transform-style: preserve-3d;
+  background-color: #5CDB95;
+    padding:5px;
+  opacity: var(--Experience-opacity);
+  transition: 1.5s width,opacity 1.5s;
+}
+
+.Experiences
+{
+ 
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  font-size: 12px;
+  width: 150px;
+  
+}
+.ExperienceSelected
+{
+ 
+  transition: 0.3s ease-in;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(228, 241, 227);
+  
+  color: rgb(34, 160, 30);
+  width: 150px;
+  height: 40px;
+  
+  
+  
+}
+.ExperiencesNone
+{
+  
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 150px;
+  height: 40px;
+}
+.experienceContainer
+{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  margin-left: 10px;
+  /* background-color: #05386B; */
+  transform:translateZ(3rem) ;
+}
+.ExperDetail
+{
+  font-size:20px;
+  margin-left:1%;
+  height:100%;
+  width:70%;
+  padding:5px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  
+}
+.scrollBar
+{
+  position: absolute;
+  width:5px;
+  height: 100%;
+  background-color: rgb(163, 157, 157);
+  border-radius: 5px;
+}
+.Experiences::-webkit-scrollbar {
+  height:2px;
+}
+
+.Experiences::-webkit-scrollbar-track {
+  background:transparent; 
+}
+ 
+
+.Experiences::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+
+.Experiences::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.ExpContaner
+{
+  display: flex;
+  flex-direction: column;
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+  color: #113d34;
+  font-weight: 450;
+}
+@media (max-width: 700px) {
+  .container{
+    max-height: 500px;
+  }
+  .experienceContainer {
+    flex-direction: column; 
+    margin-left: 0px;  
+  }
+  .ExperDetail
+  {
+    width: 98%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    height: 85%;
+  }
+  .scrollBar
+  {
+    display: none;
+  }
+  .Experiences
+  {
+  
+    height: 50px;
+    width: 100%;
+    
+    overflow: scroll;
+  }
+  .ExpContaner
+  {
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    height: 100%;
+    margin: 0px;
+   
+  }
+}
+
+
+.ScrollBarSelected
+{
+  width: 5px;
+  height: 40px;
+  background-color: green;
+  transform: translateY(var(--scroll-height));
+  transition: transform 0.5s ;
+  border-radius: 5px;
+}
+
+.ScrollBarNone
+{
+  height: 35px;
+  width: 0px;
+  background-color: transparent;
+}
+
+.ExperienceHeader
+{
+   
+    color: #05386B;
+    transform:translateZ(2rem) ;
+}

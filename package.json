@@ -6,10 +6,21 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "gsap": "^3.9.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-gsap": "^3.2.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "^3.4.4",
+    "react-scrollmagic": "^2.3.0",
+    "react-use": "^17.3.2",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "scrollmagic": "^2.0.8",
+    "web-vitals": "^1.1.2",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",

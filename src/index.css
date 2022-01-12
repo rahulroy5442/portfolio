@@ -1,3 +1,19 @@
+:root
+{
+  --scroll-height:0px;
+  --Menu-HO:0px;
+  --Overflow-type:auto;
+  --About-width:1000px;
+  --About-opacity:1;
+
+  --Experience-width:0%;
+  --Experience-opacity:1;
+  --SlidShow-front:-100%;
+  --SlidShow-SupportBox:200%;
+  --SlidShow-Opcity:0;
+  --Social-Value:-100vh;
+  --logo-opa:0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +21,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  overflow: var(--Overflow-type);
+  
 }
 
 code {

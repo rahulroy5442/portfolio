@@ -1,0 +1,44 @@
+ {/*  <div className={css.AnimationParent} ref={Animation_1}>
+    
+       <div className={animation1.join(" ")}> 
+         
+          <div style={{width:'100%',display:'inline-flex',justifyContent:'center',flexWrap: "wrap" ,gap: "280px"}}  >
+        
+
+        <Stack><div className={css.flipCardFront}><img width="250px" height="200px" src={aws}  /></div>
+          <div className={css.flipCardBack}>
+              <h1>John Doe</h1> 
+              <p>Architect and Engineer</p> 
+              <p>We love that guy</p>
+          </div>
+        </Stack>
+        
+        <Stack><div className={css.flipCardFront}><img  src={reactjs}  width="230px" height="200px"/> </div>
+          <div className={css.flipCardBack}>
+              <h1>John Doe</h1> 
+              <p>Architect and Engineer</p> 
+              <p>We love that guy</p>
+          </div>
+          </Stack>
+        </div>
+
+        <div style={{width:'100%',display:'inline-flex',justifyContent:'center',flexWrap: "wrap",marginTop:'50px',gap:"280px"}} ref={Animation_1} >
+        
+        <Stack><div className={css.flipCardFront} > <img  src={nodejs}  width="300px" height="200px"/></div><div className={css.flipCardBack}>
+              <h1>John Doe</h1> 
+              <p>Architect and Engineer</p> 
+              <p>We love that guy</p>
+          </div></Stack>
+        
+        <Stack><div className={css.flipCardFront} ><img  src={mongodb}  width="300px" height="200px"/></div>
+        <div className={css.flipCardBack}>
+              <h1>John Doe</h1> 
+              <p>Architect and Engineer</p> 
+              <p>We love that guy</p>
+          </div></Stack>
+        
+        
+        </div>
+        
+        </div>
+        </div> */} 

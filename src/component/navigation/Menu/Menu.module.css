@@ -1,0 +1,218 @@
+.Menu{
+    display: none;
+    padding-top: 50px;
+    box-sizing: border-box;
+    z-index: 50;
+    width: 50%;
+    height: 100%;
+    top:0px;
+    right: 0px;
+    position: fixed;
+    background-color: white;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform: translateX(0px);
+     transition: transform 0.2s;
+  
+}
+
+.MenuHide
+{
+    transform: translateX(100%);
+}
+
+
+.crossBar {
+    display: none;
+    
+    flex-flow: column;
+    
+    align-items: flex-end;
+    top: 30px;
+    position: fixed;
+    right:5%;
+    z-index: 60;
+    height: 15px;
+    width: 45px;
+    
+   }
+.crossBar:hover{
+cursor: pointer;
+}
+.crossBartrue {
+  
+     height: 25px;
+    width:30px;
+    
+}
+
+
+.crossMenu1
+{
+    width:45px;
+    height:4px;
+    background-color:black;
+    border-radius: 20px;
+    transition:0.5s ease-in;
+    margin-bottom: 5px;
+    position: absolute;
+}
+.crossMenu2
+{
+    width:35px;
+    height: 4px;
+    background-color: black;
+    border-radius: 20px;
+    transition:0.5s ease-in;
+    position: absolute;
+    margin-top: 10px;
+}
+.crossMenuAnimation1
+{
+    width:30px;
+    height:2px;
+    background-color:black;
+    border-radius: 20px;
+    transition:0.5s ease-in;
+    transform: rotate(-45deg) scaleX(-1);
+    position: absolute;
+    margin-top: 10px;
+}
+.crossMenuAnimation2
+{
+    width:30px;
+    height: 2px;
+    background-color: black;
+    border-radius: 20px;
+    transition: 0.5s ease-in;
+    transform: rotate(45deg) scaleX(-1);
+    position: absolute;
+    margin-top:10px;
+    
+}
+
+
+.navItems
+{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 1;
+    width: 100%;
+    flex-flow: column;
+    transition: 1s ease-in;
+    
+    font-size:15px
+}
+.navItemsNone
+{
+    opacity: 0;
+    
+}
+
+.MenuIndicator
+{
+    color:rgb(44, 44, 44);
+    
+    top:15px;
+    display:flex;
+    justify-content :center;
+    width:100%;
+    left:0px;
+    opacity: 1;
+    transition: 1s ease-in;
+    font-size: 18px;
+    
+}
+
+.MenuIndicatorNone
+{
+    opacity: 0;
+    transition: 0s ease-in;
+    
+}
+/*Horizontal bar*/
+
+.horizontalMenu
+{
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 50;
+    width: 100%;
+    
+    height: 50px;
+    justify-content: flex-end;
+    transition: 0.2s transform ;
+    box-shadow: 0px 2px 1px 2px rgb(0, 0, 0); 
+    border-radius:0px 0px 50px 50px;
+    transform: translateY(var(--Menu-HO))
+}
+.ulContainer
+{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    position: absolute;
+    margin: 0px;
+    width: 80%;
+}
+
+/*Child*/
+.NavigationItem {
+  
+    display: flex;
+    height: 50px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    
+}
+
+
+
+.NavigationItem:hover{
+
+    cursor: pointer;
+    color: rgb(105, 108, 247);
+}
+
+/* .NavigationItem div.active {
+    
+    border-bottom: 4px solid #40A4C8;
+    color: rgb(78, 78, 105);
+} */
+
+
+@media (max-width: 700px)
+{
+    .horizontalMenu
+    {
+        display: none;
+    }
+    .crossBar
+    {
+        display: flex;
+    }
+    
+   
+    .Menu{
+        display:flex;
+    }
+    /* child Element */
+    .NavigationItem {
+        margin-right: 0px;
+        justify-content: center;
+    }
+    
+   
+    
+}

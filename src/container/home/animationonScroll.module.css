@@ -1,0 +1,54 @@
+.container
+{
+   
+  max-width: 800px;
+  max-height: 500px;
+  height:100%;
+  perspective:2000px;
+  position:relative;
+  width: 100%;
+  
+}
+.obj {
+  width:100%;
+  position:absolute;
+  height:100%;
+  
+  background-color:transparent;
+  
+  transform:rotateY(-180deg) translateZ(2rem) ;
+  transition:
+    transform 3s ease;
+    transform-style: preserve-3d;
+}
+
+.obj1
+{
+margin-top: 10px;
+margin-left: 10px;
+  width:100%;
+  position:absolute;
+  margin-left: 10px;
+  background-color:transparent;
+  height:100%;
+  transform-style: preserve-3d;
+  transform:translateZ(2rem) ;
+  
+}
+
+
+.Midd
+{
+  
+    width:100%;
+  height:100%;
+  
+  position:relative;
+  
+  transform-style: preserve-3d;
+  
+   /* transition:
+    transform 3s ease;  */
+   
+}
+ 
