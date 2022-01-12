@@ -24,9 +24,4 @@ const aboutme=(props)=>{
 
 }
 export default aboutme
-  /* <div className={cssAM.container}>
-            
-                <div class={cssAM.obj1}>roy</div>
-                 <div class={cssAM.obj}>Rahul</div>
-                
-              </div> */
+  
